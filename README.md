@@ -12,7 +12,7 @@ To get the token, follow [this](https://github.com/PiotrMachowski/Xiaomi-cloud-t
 
 Then, set it globally:
 ```bash
-set VACUUM_X_TOKEN=<token>
-echo "set VACUUM_X_TOKEN=<token>" >> ~/.bashrc
+export VACUUM_X_TOKEN=<token>
+echo "export VACUUM_X_TOKEN=<token>" >> ~/.bashrc
 ```
 
