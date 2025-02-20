@@ -4,7 +4,15 @@ This repository has been created as a tutorial of how to run ROS 2 with a real T
 ## Our Robot
 We play with the Turtlebot3 toy robot, which contains a LIDAR sensor and a camera.
 
-## How to Get the Xiaomi Token
+## Xiaomi Cloud
 
-Follow [this](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor.git) tutorial.
+For you to communicate with the original Vacuum system, you need to pass by Xiaomi Cloud. For this, you need the token of the Vacuum. 
+
+To get the token, follow [this](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor.git) tutorial.
+
+Then, set it globally:
+```bash
+set VACUUM_X_TOKEN=<token>
+echo "set VACUUM_X_TOKEN=<token>" >> ~/.bashrc
+```
 
