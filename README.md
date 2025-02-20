@@ -4,7 +4,7 @@ This repository has been created as a tutorial of how to run ROS 2 with a real T
 ## Our Robot
 We play with the Turtlebot3 toy robot, which contains a LIDAR sensor and a camera.
 
-## How to Get the Xiomi Token
+## How to Get the Xiaomi Token
 
 Follow [this](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor.git) tutorial.
 
